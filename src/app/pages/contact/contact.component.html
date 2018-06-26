@@ -1,0 +1,17 @@
+<div class="content-side-space">
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <mat-form-field class="example-full-width">
+    <input [ngModel] matInput placeholder="Name*" name="name">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input [ngModel] matInput placeholder="Email*" name="email">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input [ngModel] matInput placeholder="Subject*" name="subject">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <textarea [ngModel] matInput placeholder="Message*" name="message"></textarea>
+  </mat-form-field>
+  <button mat-raised-button color="accent" type="submit" class="right-button">Submit</button>
+</form>
+</div>

@@ -1,0 +1,30 @@
+.example-form {
+    min-width: 200px;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .content-side-space {
+    width: 82%;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
+    /* height: 40px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* background-color: #66ffff; */
+}
+
+/* .spacer {
+    flex: 1 1 auto;
+} */
+
+.right-button {
+    float: right;
+    margin-bottom: 15px;
+  }

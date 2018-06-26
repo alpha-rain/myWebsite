@@ -1,0 +1,42 @@
+#content {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: #66ffff; */
+}
+
+#content-para {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /* background-color: #66ffff; */
+}
+
+#header-margin {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#title-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#parallax-1 {
+    background-image: url('/assets/road.jpg');
+    height: 430px;
+    width: 90%;
+    max-width: 100%;
+}
+
+#parallax-2 {
+    background-image: url('/assets/Galaxy.jpg');
+    height: 430px;
+    width: 90%;
+    max-width: 100%;
+}
